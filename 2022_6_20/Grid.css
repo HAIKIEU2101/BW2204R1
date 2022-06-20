@@ -1,0 +1,41 @@
+html,
+body{
+    color:aliceblue;
+    width:100%;
+    height:100%;
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+.container{
+    text-align: center;
+    width:70%;
+    height:70%;
+    margin:auto;
+    margin-top:100px;
+    background-color: cornflowerblue;
+    display:grid;
+    grid-template-columns: 2fr 5fr 3fr;
+    grid-template-rows: 1fr 1fr fr;
+    grid-template-areas: 
+    "Header Header Header"
+    "Menu Main Right"
+     "Menu Footer Footer";
+}
+Header{
+    background-color: blue;
+    grid-area: Header;
+}
+.Menu{
+    background-color: coral;
+    grid-area: Menu;
+}
+.Main{
+    background-color: chartreuse;
+    grid-area:Main;
+}
+Footer{
+    background-color: fuchsia;
+    grid-area: Footer;
+
+}
