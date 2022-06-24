@@ -25,12 +25,15 @@ margin-left: 20px;
     font-size: 130px;
 } 
 .banner-text p{
-    font-size: 20px;
+    font-size: 40px;
     font-style: italic;
 
 } 
-.banner-mn>a{
+.banner-mn a{
+    color:#fff;
     border:1px solid #fff;
-    
-
-} 
+    padding:10px 10px;
+    } 
+.banner-mn a:hover{
+    background-color: #fff;
+}
