@@ -90,11 +90,11 @@ nav ul li a{
     z-index: 1;
     display:inline-block;
 }
-.title-text h1::after{
+/* .title-text h1::after{
     content:'';
     width:50px;
     height:35px;
-    background:linear-gradient(#41b1ed),#fff);
+    background:linear-gradient((#41b1ed),#fff);
     position:absolute;
     top:-20px;
     left:0;
@@ -102,7 +102,7 @@ nav ul li a{
     transform:rotate(10deg);
     border-top-left-radius:35px;
     border-bottom-right-radius:35px;
-}
+} */
 .title-text p{
     font-size: 30px;
     
